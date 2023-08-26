@@ -1,0 +1,59 @@
+.wi-widget {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 120px;
+  background-color: #fff;
+background-color: #003173;
+box-shadow: 4px 4px 4px #888888;
+}
+  .wi-left,
+  .wi-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+    .wi-title {
+      font-weight: bold;
+      font-size: 14px;
+      color: rgb(160, 160, 160);
+      text-align: end;
+    }
+
+    .wi-counter {
+      font-size: 28px;
+      font-weight: 400;
+      color: #fff;
+      text-align: end;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+
+    .wi-percentage {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+      .positive {
+        color: green;
+      }
+      .negative {
+        color: red;
+      }
+    
+
+    .wi-icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
+  

@@ -1,0 +1,7 @@
+.li-list {
+  display: flex;
+  width: 100%;}
+  .li-listContainer {
+    flex: 6;
+  }
+

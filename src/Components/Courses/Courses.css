@@ -1,0 +1,148 @@
+.co-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: blue; */
+    margin-bottom: 50px;
+}
+.co-wrapper{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:center;
+/* background-color: yellow; */
+
+}
+.co-head{
+width: 90%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+margin-bottom: 30px;
+/* background-color: #bf2051; */
+}
+.co-h1{
+/* background-color: green; */
+color: #003173;
+border-bottom:solid 7px #bf2051 ;
+}
+
+.co-car{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.co-car-teachers{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    direction: rtl;
+    width: 90%;
+    margin: auto;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.co-each-cart{
+    width: 18rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+        box-shadow: 4px 4px 4px #888888;
+    border-radius:20px;
+}
+.co-each-cart:hover{
+scale: 1.1;
+transition: all 0.4s ease-in ;
+-moz-transition: all 0.4s ease-in;
+-webkit-transition: all 0.4s ease-in;
+-ms-transition: all 0.4s ease-in;
+-o-transition: all 0.4s ease-in;
+cursor: pointer;
+}
+.co-each-img{
+    width: 100%;
+    height: 200px;
+    /* background-color: #003173; */
+    position: relative;
+    border-radius:20px 0 0 0;
+
+
+}
+.co-each-img img{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* width: auto; */
+    height: 100%;
+    background-color: aliceblue;
+    border-radius:20px 20px  0 0;
+
+}
+
+.co-each-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.co-each-title{
+color: #bf2051;
+/* font-family: diwany; */
+/* font-family: "Almarai", Arial, sans-serif; */
+font-family: "Arabesque", Arial, sans-serif;
+width: 100%;
+text-align: center;
+direction: rtl;
+}
+.co-each-title h1{
+font-size:1.6rem;
+font-weight: bold;
+display: inline;
+
+}
+.co-each-para{
+text-align: center;
+direction: rtl;
+/* background-color: red; */
+width: 100%;
+padding-right: 10px;
+
+}
+.co-each-para p{
+text-align: center;
+direction: rtl;
+/* color: #003173; */
+color: #003173;
+}
+.co-each-btn{
+width: 100%;
+border-radius:0 0 20px 20px;
+
+}
+.co-each-btn button {
+width: 100%;
+background-color: #003173;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+border: none;
+border-radius:0 0 20px 20px;
+
+}
