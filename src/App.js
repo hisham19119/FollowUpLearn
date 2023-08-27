@@ -19,10 +19,10 @@ function App() {
   
   return (
     <div >
-      <BrowserRouter>
+      <BrowserRouter basename="/FollowUpLearn">
         <Routes>
 
-          <Route path="/" element={<Home/>}/>
+          <Route  path="/" exact element={<Home/>}/>
           <Route path="/dash" element={<DashBoard/>}/>
           <Route path="/list" element={<List/>}/>
           <Route path="/new" element={<New/>}/>
